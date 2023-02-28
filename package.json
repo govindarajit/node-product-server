@@ -2,7 +2,7 @@
   "name": "practice",
   "version": "1.0.0",
   "description": "My first restful api with node and express",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "dev": "nodemon server"
   },
