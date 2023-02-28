@@ -21,6 +21,6 @@ mongoose.connect(MONGO_URI, {
     .catch(err => console.log(err));
 //User routes 
 app.use('/api/posts', postsRoutes);
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 app.listen(PORT, () => console.log(`server run at port ${PORT}`));

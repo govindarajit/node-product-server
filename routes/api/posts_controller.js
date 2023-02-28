@@ -32,6 +32,7 @@ router.get('/:id', async (req, res) => {
 //@desc Create a post 
 
 router.post('/', async (req, res) => {
+    console.log(req.body);
     const newPost = new Posts(req.body);
 
     try {
